@@ -1,0 +1,129 @@
+body {
+
+  margin: 0;
+  background-color: rgb(121, 119, 119);
+  color: #f8f2f2;
+  font-family: system-ui, -apple-system, 'Malgun Gothic', sans-serif;
+}
+
+h2 {
+  margin: 0 0 16px;
+  font-size: 22px;
+}
+
+button {
+  padding: 8px 14px;
+  border: 1px solid #d5d8de;
+  border-radius: 6px;
+  background-color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.button-primary {
+  border-color: #2f6fed;
+  background-color: #2f6fed;
+  color: #fff;
+}
+
+/* 상단 메뉴 */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  padding: 12px 24px;
+  border-bottom: 1px solid #e3e5ea;
+  background-color: #fff;
+}
+
+.logo {
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  gap: 4px;
+}
+
+.nav-button {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.nav-button.active {
+  background-color: #e8effd;
+  color: #2f6fed;
+  font-weight: 600;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 본문 */
+.main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.post-list {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e3e5ea;
+  border-radius: 8px;
+  background-color: #fff;
+  list-style: none;
+}
+
+.post-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding: 14px 16px;
+}
+
+.post-item + .post-item {
+  border-top: 1px solid #e3e5ea;
+}
+
+.post-meta {
+  color: #777;
+  font-size: 14px;
+}
+
+/* 로그인 */
+.login {
+  max-width: 340px;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid #e3e5ea;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.login input {
+  padding: 9px 10px;
+  border: 1px solid #d5d8de;
+  border-radius: 6px;
+  font: inherit;
+}
